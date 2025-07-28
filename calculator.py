@@ -1,12 +1,12 @@
-print("a = sum")
-print("b = difference")
+print("a = sum of two numbers")
+print("b = difference of two numbers")
 print("c = product")
 print("o = division")
 
 m = input("Enter your operator: ")
 
 if m == "a":
-    z = int(input("Enter num 1: "))
+    z = int(input("Enter number 1: "))
     j = int(input("Enter num 2: "))
     y = z + j
     print(y, "is the sum")
